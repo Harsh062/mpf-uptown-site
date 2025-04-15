@@ -16,6 +16,9 @@ export default function Navbar() {
         <Link href="/team" style={styles.link}>
           Team
         </Link>
+        <Link href="/gallery" style={styles.link}>
+          Gallery
+        </Link>
       </div>
     </nav>
   );
