@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main>
@@ -17,8 +19,9 @@ export default function Home() {
       </p>
 
       <p style={{ marginTop: "2rem" }}>
-        <a href="/about">About Us</a> | <a href="/events">Annual Events</a> |{" "}
-        <a href="/team">Core Committee</a>
+        <Link href="/about">About Us</Link> |{" "}
+        <Link href="/events">Annual Events</Link> |{" "}
+        <Link href="/team">Core Committee</Link>
       </p>
     </main>
   );
