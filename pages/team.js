@@ -1,3 +1,5 @@
+import Layout from "../components/Layout";
+
 const team = [
   { name: "Abhijeet Jaju", role: "President" },
   { name: "Nikhil Chandak", role: "Secretary" },
@@ -6,7 +8,7 @@ const team = [
 
 export default function Team() {
   return (
-    <main>
+    <Layout>
       <h1>MPF Core Committee</h1>
       <ul>
         {team.map((member, idx) => (
@@ -16,6 +18,6 @@ export default function Team() {
           </li>
         ))}
       </ul>
-    </main>
+    </Layout>
   );
 }

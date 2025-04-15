@@ -1,6 +1,8 @@
+import Layout from "../components/Layout";
+
 export default function About() {
   return (
-    <main>
+    <Layout>
       <h1>About MPF Uptown</h1>
       <p>
         Mahesh Professional Forum (MPF) is a dynamic platform for Maheshwari
@@ -13,6 +15,6 @@ export default function About() {
         community. MPF has multiple active chapters across Pune and a growing
         base of over 1,800 professionals.
       </p>
-    </main>
+    </Layout>
   );
 }

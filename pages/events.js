@@ -1,3 +1,5 @@
+import Layout from "../components/Layout";
+
 const events = [
   {
     title: "Aashirwad Samaroh",
@@ -35,7 +37,7 @@ const events = [
 
 export default function Events() {
   return (
-    <main>
+    <Layout>
       <h1>Annual MPF Events</h1>
       <ul>
         {events.map((event, idx) => (
@@ -46,6 +48,6 @@ export default function Events() {
           </li>
         ))}
       </ul>
-    </main>
+    </Layout>
   );
 }

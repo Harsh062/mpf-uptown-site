@@ -1,8 +1,10 @@
 import Link from "next/link";
 
+import Layout from "../components/Layout";
+
 export default function Home() {
   return (
-    <main>
+    <Layout>
       <h1>Welcome to MPF Uptown 🎉</h1>
 
       <p>
@@ -23,6 +25,6 @@ export default function Home() {
         <Link href="/events">Annual Events</Link> |{" "}
         <Link href="/team">Core Committee</Link>
       </p>
-    </main>
+    </Layout>
   );
 }
