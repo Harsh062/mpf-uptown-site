@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+import CountdownTimer from "../components/Countdown";
 import Link from "next/link";
 
 export default function Home() {
@@ -28,6 +29,8 @@ export default function Home() {
           celebrate together.
         </p>
       </div>
+
+      <CountdownTimer eventName="Joy Of Life" eventDate="2025-06-12T10:00:00" />
 
       {/* MPF Documentary Embed */}
       <section>
