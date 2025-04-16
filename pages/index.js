@@ -30,7 +30,7 @@ export default function Home() {
         </p>
       </div>
 
-      <CountdownTimer eventName="Joy Of Life" eventDate="2025-06-12T10:00:00" />
+      <CountdownTimer eventName="Joy Of Life" eventDate="2025-06-14T10:00:00" />
 
       {/* MPF Documentary Embed */}
       <section>
