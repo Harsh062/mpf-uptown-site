@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import Layout from "../components/Layout";
 
 const events = [
@@ -38,6 +40,13 @@ const events = [
 export default function Events() {
   return (
     <Layout>
+      <Head>
+        <title>MPF Uptown – Events Calendar</title>
+        <meta
+          name="description"
+          content="Explore our annual calendar of MPF events including Diwali Milan, Business Connect, Mahesh Idol, AGM and more. Stay updated and participate with pride."
+        />
+      </Head>
       <h1>Annual MPF Events</h1>
       <ul>
         {events.map((event, idx) => (

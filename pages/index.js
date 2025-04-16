@@ -1,10 +1,19 @@
+import Link from "next/link";
+import Head from "next/head";
+
 import Layout from "../components/Layout";
 import CountdownTimer from "../components/Countdown";
-import Link from "next/link";
 
 export default function Home() {
   return (
     <Layout>
+      <Head>
+        <title>MPF Uptown</title>
+        <meta
+          name="description"
+          content="Welcome to the official site of MPF Uptown – a vibrant community of Maheshwari professionals."
+        />
+      </Head>
       {/* Hero Section */}
       <div
         style={{

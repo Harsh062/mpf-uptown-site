@@ -1,5 +1,7 @@
 import Slider from "react-slick";
 import { useState } from "react";
+import Head from "next/head";
+
 import Layout from "../components/Layout";
 
 const galleryData = {
@@ -33,6 +35,13 @@ export default function Gallery() {
 
   return (
     <Layout>
+      <Head>
+        <title>MPF Uptown – Photo Gallery</title>
+        <meta
+          name="description"
+          content="Browse the photo gallery of MPF Uptown events and celebrations across years. Relive the joy, moments, and memories of our vibrant community."
+        />
+      </Head>
       <h1>MPF Photo Gallery 📸</h1>
       <p>Select a year to view event highlights</p>
 
