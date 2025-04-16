@@ -49,6 +49,7 @@ const styles = {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
+    padding: "0 16px",
   },
   logoText: {
     marginLeft: "0.5rem",
