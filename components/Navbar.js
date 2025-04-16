@@ -15,7 +15,6 @@ export default function Navbar() {
           }}
         >
           <Image src="/logo.jpg" alt="MPF Logo" width={40} height={40} />
-          <span style={styles.logoText}>MPF Uptown</span>
         </Link>
 
         {/* Links on Right */}
